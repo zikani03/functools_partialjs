@@ -1,6 +1,7 @@
-#ReadMe
+functools_partialjs
+===================
 
-A JavaScript implementation of partial function from python's functools module
+Python's functools.partial() in JavaScript.
 
 ## Notes:
 
@@ -10,7 +11,7 @@ A JavaScript implementation of partial function from python's functools module
   
 - made it a node module too. ( how do i add it to npm's package list? )
 
-- Feel i need to give it a different name, does <i>fnPartialJs</i> sound legit?
+- Feel i need to give it a name, does <i>fnPartialJs</i> sound legit?
 
 - I am still an amateur programmer so please help me and tell me how i can improve this
 
@@ -42,6 +43,7 @@ A JavaScript implementation of partial function from python's functools module
 
 inspired by
 ===========
-Inspired by the partial function from [Python's functools module](http://python.org/howtos/howto-functional.html
+Inspired by the partial function from [Python's functools module](http://docs.python.org/2/howto/functional.html)
 
 2013, zikani
+
