@@ -3,19 +3,17 @@ functools_partialjs
 
 Python's functools.partial() in JavaScript.
 
-## Notes:
+### Notes:
 
 - First ever successful weekend project!!
 
 - Got the idea while reading through python docs on functional programming
   
-- made it a node module too. ( how do i add it to npm's package list? )
+- made it a node module too. ( how do i add it to npm ?)
 
-- Feel i need to give it a name, does <i>fnPartialJs</i> sound legit?
+- I am still a wack programmer so please help me and tell me how i can improve this
 
-- I am still an amateur programmer so please help me and tell me how i can improve this
-
-#Example Usage:
+### Example Usage:
 
 ````javascript
       #!/usr/bin/env node
