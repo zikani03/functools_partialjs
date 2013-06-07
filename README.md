@@ -8,12 +8,11 @@ Python's functools.partial() in JavaScript.
 - First ever successful weekend project!!
 
 - Got the idea while reading through python docs on functional programming
-  
-- made it a node module too. ( how do i add it to npm ?)
 
 - I am still a wack programmer so please help me and tell me how i can improve this
 
 ### Example Usage:
+
 
 ````javascript
       #!/usr/bin/env node
@@ -25,7 +24,13 @@ Python's functools.partial() in JavaScript.
       var server_log = functools.partial(log, {subsystem: 'server'});
       
       server_log('Unable to open socket');
-      
+	  
+	 // we can achieve what functools.partial does with a closure
+	  var server_log_closure = function(msg){
+	    return log(msg, 'server');
+	  }
+	  server_log_closure('Unable to open socket');
+
       var func1 = function(a, b, c){   return a + b + c;}; 
       
       var func2 = functools.partial(func1,{b: 4, c: 10});
